@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
+}
+
+/*
+Mobile: 375px
+Desktop: 1440px*/
+.container, .card, .card .card-bottom .ETH, .card .card-bottom .days {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body {
+  background-color: #0d192b;
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 4rem;
+  width: 90%;
+  height: 80vh;
+}
+
+.card {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #14253d;
+  border-radius: 10px;
+  width: 17rem;
+  height: 70vh;
+}
+
+.card .card-top img {
+  width: 240px;
+  border-radius: 10px;
+}
+
+.card .card-mid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 1.5rem;
+  font-weight: 600;
+}
+
+.card .card-mid h3 {
+  color: white;
+}
+
+.card .card-mid p {
+  color: #8bacda;
+  margin-top: 1rem;
+}
+
+.card .card-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+}
+
+.card .card-bottom .ETH {
+  color: #00fff7;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 5rem;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.card .card-bottom .days {
+  color: #8bacda;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 5rem;
+  font-size: 14px;
+}
+
+.card .card-footer {
+  border-top: 1px solid #2f415b;
+  width: 90%;
+  text-align: center;
+  margin: .5rem;
+}
+
+.card .card-footer p {
+  color: #8bacda;
+  font-weight: 600;
+  margin: 1rem;
+}
+
+.card .card-footer p span {
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .card {
+    height: 55vh;
+  }
+}
+/*# sourceMappingURL=style.css.map */
